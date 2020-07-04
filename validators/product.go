@@ -18,7 +18,7 @@ type ReqProductCreate struct {
 	Stock            int      `json:"stock" valid:"range(0|100000)"`
 	Unit             string   `json:"unit" valid:"required,stringlength(1|20)"`
 	Price            int64    `json:"price" valid:"range(0|10000000)"`
-	MaxQuantityCount int      `json:"max_quantity_count" valid:"range(0,10000)"`
+	MaxQuantityCount int      `json:"max_quantity_count"`
 	ProductCost      int64    `json:"product_cost" valid:"range(0|10000000)"`
 	AdditionalImages []string `json:"additional_images"`
 }

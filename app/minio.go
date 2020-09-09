@@ -1,8 +1,8 @@
 package app
 
 import (
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
 	"github.com/minio/minio-go/v6"
-	"github.com/shopicano/shopicano-backend/config"
 )
 
 var spaceClient *minio.Client

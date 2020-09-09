@@ -2,12 +2,12 @@ package core
 
 import (
 	"fmt"
+	"git.cloudbro.net/michaelfigg/yallawebsites/errors"
+	"git.cloudbro.net/michaelfigg/yallawebsites/log"
+	"git.cloudbro.net/michaelfigg/yallawebsites/utils"
 	"github.com/disintegration/imaging"
 	"github.com/labstack/echo/v4"
 	"github.com/minio/minio-go/v6"
-	"github.com/shopicano/shopicano-backend/errors"
-	"github.com/shopicano/shopicano-backend/log"
-	"github.com/shopicano/shopicano-backend/utils"
 	"image"
 	"io"
 	"strconv"

@@ -1,10 +1,10 @@
 package server
 
 import (
+	"git.cloudbro.net/michaelfigg/yallawebsites/api"
+	"git.cloudbro.net/michaelfigg/yallawebsites/middlewares"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/shopicano/shopicano-backend/api"
-	"github.com/shopicano/shopicano-backend/middlewares"
 	"net/http"
 	"strings"
 )

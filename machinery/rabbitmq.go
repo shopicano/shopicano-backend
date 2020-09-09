@@ -1,11 +1,11 @@
 package machinery
 
 import (
+	cfg "git.cloudbro.net/michaelfigg/yallawebsites/config"
+	"git.cloudbro.net/michaelfigg/yallawebsites/log"
+	"git.cloudbro.net/michaelfigg/yallawebsites/tasks"
 	"github.com/RichardKnop/machinery/v1"
 	"github.com/RichardKnop/machinery/v1/config"
-	cfg "github.com/shopicano/shopicano-backend/config"
-	"github.com/shopicano/shopicano-backend/log"
-	"github.com/shopicano/shopicano-backend/tasks"
 	"os"
 )
 

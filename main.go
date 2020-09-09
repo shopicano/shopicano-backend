@@ -1,6 +1,6 @@
 package main
 
-import "github.com/shopicano/shopicano-backend/cmd"
+import "git.cloudbro.net/michaelfigg/yallawebsites/cmd"
 
 // @title Shopicano Backend API
 // @version 1.0

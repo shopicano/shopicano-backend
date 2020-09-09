@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export CONSUL_URL="128.199.89.247:8500"
-export CONSUL_PATH="shopicano"
+export CONSUL_PATH="yallawebsites"
 
 export GO111MODULE=on
 export GOARCH="amd64"
@@ -9,11 +9,7 @@ export CGO_ENABLED=0
 
 cmd=$1
 
-binary="shopicano"
-
-########## Dep Hack
-go get github.com/ugorji/go@v1.1.2-0.20180831062425-e253f1f20942
-##########
+binary="yallawebsites"
 
 if [ "$cmd" = "build" ]; then
   echo "Executing build command"

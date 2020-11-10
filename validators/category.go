@@ -1,11 +1,11 @@
 package validators
 
 import (
-	"git.cloudbro.net/michaelfigg/yallawebsites/errors"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
-	"git.cloudbro.net/michaelfigg/yallawebsites/utils"
 	"github.com/asaskevich/govalidator"
 	"github.com/labstack/echo/v4"
+	"github.com/shopicano/shopicano-backend/errors"
+	"github.com/shopicano/shopicano-backend/models"
+	"github.com/shopicano/shopicano-backend/utils"
 	"time"
 )
 

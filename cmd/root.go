@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"git.cloudbro.net/michaelfigg/yallawebsites/app"
-	"git.cloudbro.net/michaelfigg/yallawebsites/config"
-	"git.cloudbro.net/michaelfigg/yallawebsites/log"
+	"github.com/shopicano/shopicano-backend/app"
+	"github.com/shopicano/shopicano-backend/config"
+	"github.com/shopicano/shopicano-backend/log"
 	"github.com/spf13/cobra"
 )
 

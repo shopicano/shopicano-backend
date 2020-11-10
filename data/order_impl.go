@@ -2,10 +2,10 @@ package data
 
 import (
 	"fmt"
-	"git.cloudbro.net/michaelfigg/yallawebsites/errors"
-	"git.cloudbro.net/michaelfigg/yallawebsites/log"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/jinzhu/gorm"
+	"github.com/shopicano/shopicano-backend/errors"
+	"github.com/shopicano/shopicano-backend/log"
+	"github.com/shopicano/shopicano-backend/models"
 	"time"
 )
 

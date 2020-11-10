@@ -1,10 +1,10 @@
 package migration
 
 import (
-	"git.cloudbro.net/michaelfigg/yallawebsites/app"
-	"git.cloudbro.net/michaelfigg/yallawebsites/core"
-	"git.cloudbro.net/michaelfigg/yallawebsites/log"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
+	"github.com/shopicano/shopicano-backend/app"
+	"github.com/shopicano/shopicano-backend/core"
+	"github.com/shopicano/shopicano-backend/log"
+	"github.com/shopicano/shopicano-backend/models"
 	"github.com/spf13/cobra"
 )
 

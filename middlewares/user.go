@@ -1,11 +1,11 @@
 package middlewares
 
 import (
-	"git.cloudbro.net/michaelfigg/yallawebsites/core"
-	"git.cloudbro.net/michaelfigg/yallawebsites/errors"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
-	"git.cloudbro.net/michaelfigg/yallawebsites/utils"
 	"github.com/labstack/echo/v4"
+	"github.com/shopicano/shopicano-backend/core"
+	"github.com/shopicano/shopicano-backend/errors"
+	"github.com/shopicano/shopicano-backend/models"
+	"github.com/shopicano/shopicano-backend/utils"
 	"net/http"
 )
 

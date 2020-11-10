@@ -1,8 +1,8 @@
 package data
 
 import (
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/jinzhu/gorm"
+	"github.com/shopicano/shopicano-backend/models"
 )
 
 type CouponRepository interface {

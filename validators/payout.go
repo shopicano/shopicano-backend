@@ -1,10 +1,10 @@
 package validators
 
 import (
-	"git.cloudbro.net/michaelfigg/yallawebsites/errors"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/asaskevich/govalidator"
 	"github.com/labstack/echo/v4"
+	"github.com/shopicano/shopicano-backend/errors"
+	"github.com/shopicano/shopicano-backend/models"
 )
 
 type ReqCreatePayoutEntry struct {

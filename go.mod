@@ -1,4 +1,4 @@
-module git.cloudbro.net/michaelfigg/yallawebsites
+module github.com/shopicano/shopicano-backend
 
 go 1.14
 

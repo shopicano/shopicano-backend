@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"git.cloudbro.net/michaelfigg/yallawebsites/log"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/braintree-go/braintree-go"
+	"github.com/shopicano/shopicano-backend/log"
+	"github.com/shopicano/shopicano-backend/models"
 )
 
 const (

@@ -9,8 +9,8 @@ ENV GOOS="linux"
 ENV GOARCH="amd64"
 ENV GO111MODULE=on
 
-COPY . $GOPATH/src/git.cloudbro.net/michaelfigg/yallawebsites
-WORKDIR $GOPATH/src/git.cloudbro.net/michaelfigg/yallawebsites
+COPY . $GOPATH/src/github.com/shopicano/shopicano-backend
+WORKDIR $GOPATH/src/github.com/shopicano/shopicano-backend
 
 RUN go get .
 RUN go build -v -o yallawebsites

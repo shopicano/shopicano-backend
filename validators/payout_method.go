@@ -1,9 +1,9 @@
 package validators
 
 import (
-	"git.cloudbro.net/michaelfigg/yallawebsites/errors"
 	"github.com/asaskevich/govalidator"
 	"github.com/labstack/echo/v4"
+	"github.com/shopicano/shopicano-backend/errors"
 )
 
 type ReqCreatePayoutMethod struct {

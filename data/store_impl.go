@@ -2,8 +2,8 @@ package data
 
 import (
 	"fmt"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/jinzhu/gorm"
+	"github.com/shopicano/shopicano-backend/models"
 )
 
 type StoreRepositoryImpl struct {

@@ -2,16 +2,16 @@ package services
 
 import (
 	"fmt"
-	"git.cloudbro.net/michaelfigg/yallawebsites/app"
-	"git.cloudbro.net/michaelfigg/yallawebsites/config"
-	"git.cloudbro.net/michaelfigg/yallawebsites/data"
-	"git.cloudbro.net/michaelfigg/yallawebsites/log"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
-	payment_gateways "git.cloudbro.net/michaelfigg/yallawebsites/payment-gateways"
-	"git.cloudbro.net/michaelfigg/yallawebsites/templates"
-	"git.cloudbro.net/michaelfigg/yallawebsites/utils"
 	"github.com/RichardKnop/machinery/v1/tasks"
 	"github.com/go-gomail/gomail"
+	"github.com/shopicano/shopicano-backend/app"
+	"github.com/shopicano/shopicano-backend/config"
+	"github.com/shopicano/shopicano-backend/data"
+	"github.com/shopicano/shopicano-backend/log"
+	"github.com/shopicano/shopicano-backend/models"
+	payment_gateways "github.com/shopicano/shopicano-backend/payment-gateways"
+	"github.com/shopicano/shopicano-backend/templates"
+	"github.com/shopicano/shopicano-backend/utils"
 )
 
 func SendOrderDetailsEmail(email, subject string, order *models.OrderDetailsView) error {

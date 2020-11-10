@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	migration "git.cloudbro.net/michaelfigg/yallawebsites/cmd/migrations"
+	migration "github.com/shopicano/shopicano-backend/cmd/migrations"
 	"github.com/spf13/cobra"
 )
 

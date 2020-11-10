@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 	"fmt"
-	"git.cloudbro.net/michaelfigg/yallawebsites/config"
-	"git.cloudbro.net/michaelfigg/yallawebsites/log"
+	"github.com/shopicano/shopicano-backend/config"
+	"github.com/shopicano/shopicano-backend/log"
 	"net/http"
 	"os"
 	"os/signal"

@@ -3,10 +3,10 @@ package payment_gateways
 import (
 	"errors"
 	"fmt"
-	"git.cloudbro.net/michaelfigg/yallawebsites/config"
-	"git.cloudbro.net/michaelfigg/yallawebsites/log"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/nahid/gohttp"
+	"github.com/shopicano/shopicano-backend/config"
+	"github.com/shopicano/shopicano-backend/log"
+	"github.com/shopicano/shopicano-backend/models"
 	"net/http"
 	"strconv"
 )

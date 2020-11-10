@@ -2,11 +2,11 @@ package server
 
 import (
 	"fmt"
-	"git.cloudbro.net/michaelfigg/yallawebsites/app"
-	"git.cloudbro.net/michaelfigg/yallawebsites/log"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
-	"git.cloudbro.net/michaelfigg/yallawebsites/utils"
 	"github.com/labstack/echo/v4"
+	"github.com/shopicano/shopicano-backend/app"
+	"github.com/shopicano/shopicano-backend/log"
+	"github.com/shopicano/shopicano-backend/models"
+	"github.com/shopicano/shopicano-backend/utils"
 	"time"
 )
 

@@ -1,14 +1,14 @@
 package middlewares
 
 import (
-	"git.cloudbro.net/michaelfigg/yallawebsites/app"
-	"git.cloudbro.net/michaelfigg/yallawebsites/config"
-	"git.cloudbro.net/michaelfigg/yallawebsites/core"
-	"git.cloudbro.net/michaelfigg/yallawebsites/data"
-	"git.cloudbro.net/michaelfigg/yallawebsites/errors"
-	"git.cloudbro.net/michaelfigg/yallawebsites/utils"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo/v4"
+	"github.com/shopicano/shopicano-backend/app"
+	"github.com/shopicano/shopicano-backend/config"
+	"github.com/shopicano/shopicano-backend/core"
+	"github.com/shopicano/shopicano-backend/data"
+	"github.com/shopicano/shopicano-backend/errors"
+	"github.com/shopicano/shopicano-backend/utils"
 	"net/http"
 	"strings"
 )

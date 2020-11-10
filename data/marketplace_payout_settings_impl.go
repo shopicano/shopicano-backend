@@ -2,8 +2,8 @@ package data
 
 import (
 	"fmt"
-	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/jinzhu/gorm"
+	"github.com/shopicano/shopicano-backend/models"
 )
 
 func (au *MarketplaceRepositoryImpl) CreatePayoutSettings(db *gorm.DB, m *models.PayoutSettings) error {

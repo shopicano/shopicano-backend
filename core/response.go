@@ -2,16 +2,17 @@ package core
 
 import (
 	"fmt"
+	"image"
+	"io"
+	"strconv"
+	"strings"
+
 	"github.com/disintegration/imaging"
 	"github.com/labstack/echo/v4"
 	"github.com/minio/minio-go/v6"
 	"github.com/shopicano/shopicano-backend/errors"
 	"github.com/shopicano/shopicano-backend/log"
 	"github.com/shopicano/shopicano-backend/utils"
-	"image"
-	"io"
-	"strconv"
-	"strings"
 )
 
 type Response struct {

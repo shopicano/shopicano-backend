@@ -2,10 +2,11 @@ package data
 
 import (
 	"fmt"
+	"strings"
+
 	"github.com/jinzhu/gorm"
 	"github.com/shopicano/shopicano-backend/helpers"
 	"github.com/shopicano/shopicano-backend/models"
-	"strings"
 )
 
 type ProductRepositoryImpl struct {
@@ -384,7 +385,7 @@ func (pu *ProductRepositoryImpl) ListByCollection(db *gorm.DB, collectionID stri
 	var ps []models.ProductDetails
 	p := models.Product{}
 	if err := db.Table(p.TableName()).
-		Select("products.id, products.stock, products.sku, products.unit, products.store_id, s.name AS store_name, products.name, products.price, products.description, products.is_published, products.is_shippable, products.is_digital, c.id AS category_id, c.name AS category_name, products.image, products.created_at, products.updated_at").
+		Select("products.id, products.stock, products.sku, products.slug, products.unit, products.store_id, s.name AS store_name, products.name, products.price, products.description, products.is_published, products.is_shippable, products.is_digital, c.id AS category_id, c.name AS category_name, products.image, products.created_at, products.updated_at").
 		Joins("LEFT JOIN categories AS c ON products.category_id = c.id").
 		Joins("LEFT JOIN stores AS s ON products.store_id = s.id").
 		Joins("LEFT JOIN collection_of_products AS cop ON cop.product_id = products.id").
@@ -400,7 +401,7 @@ func (pu *ProductRepositoryImpl) ListByCollectionAsStoreStuff(db *gorm.DB, colle
 	var ps []models.ProductDetails
 	p := models.Product{}
 	if err := db.Table(p.TableName()).
-		Select("products.id, products.stock, products.sku, products.unit, products.store_id, s.name AS store_name, products.name, products.price, products.description, products.is_published, products.is_shippable, products.is_digital, c.id AS category_id, c.name AS category_name, products.image, products.created_at, products.updated_at").
+		Select("products.id, products.stock, products.sku, products.slug, products.unit, products.store_id, s.name AS store_name, products.name, products.price, products.description, products.is_published, products.is_shippable, products.is_digital, c.id AS category_id, c.name AS category_name, products.image, products.created_at, products.updated_at").
 		Joins("LEFT JOIN categories AS c ON products.category_id = c.id").
 		Joins("LEFT JOIN stores AS s ON products.store_id = s.id").
 		Joins("LEFT JOIN collection_of_products AS cop ON cop.product_id = products.id").

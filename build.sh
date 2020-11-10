@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export CONSUL_URL="128.199.89.247:8500"
-export CONSUL_PATH="yallawebsites"
+export CONSUL_PATH="shopicano"
 
 export GO111MODULE=on
 export GOARCH="amd64"
@@ -9,7 +9,7 @@ export CGO_ENABLED=0
 
 cmd=$1
 
-binary="yallawebsites"
+binary="shopicano"
 
 if [ "$cmd" = "build" ]; then
   echo "Executing build command"

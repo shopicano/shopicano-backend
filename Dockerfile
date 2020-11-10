@@ -13,8 +13,8 @@ COPY . $GOPATH/src/github.com/shopicano/shopicano-backend
 WORKDIR $GOPATH/src/github.com/shopicano/shopicano-backend
 
 RUN go get .
-RUN go build -v -o yallawebsites
-RUN mv yallawebsites /go/bin/yallawebsites
+RUN go build -v -o shopicano
+RUN mv shopicano /go/bin/shopicano
 
 FROM alpine
 
@@ -22,6 +22,6 @@ RUN apk update && apk add ca-certificates && rm -rf /var/cache/apk/*
 
 WORKDIR /root
 
-COPY --from=builder /go/bin/yallawebsites /usr/local/bin/yallawebsites
+COPY --from=builder /go/bin/shopicano /usr/local/bin/shopicano
 
-ENTRYPOINT ["yallawebsites"]
+ENTRYPOINT ["shopicano"]

@@ -4,6 +4,11 @@ import (
 	"bytes"
 	"encoding/base64"
 	"fmt"
+	"net/http"
+	"strconv"
+	"strings"
+	"time"
+
 	"github.com/gosimple/slug"
 	"github.com/labstack/echo/v4"
 	"github.com/shopicano/shopicano-backend/app"
@@ -16,10 +21,6 @@ import (
 	"github.com/shopicano/shopicano-backend/utils"
 	"github.com/shopicano/shopicano-backend/validators"
 	"github.com/shopicano/shopicano-backend/values"
-	"net/http"
-	"strconv"
-	"strings"
-	"time"
 )
 
 func RegisterProductRoutes(publicEndpoints, platformEndpoints *echo.Group) {

@@ -190,7 +190,7 @@ func (pu *ProductRepositoryImpl) GetDetails(db *gorm.DB, productID string) (*mod
 	if err := db.Table(fmt.Sprintf("%s AS cop", cop.TableName())).
 		Select("c.id, c.name, c.description").
 		Joins(fmt.Sprintf("JOIN %s AS c ON cop.collection_id = c.id", c.TableName())).
-		Where("cop.product_id = ?", productID).
+		Where("cop.product_id = ?", ps.ID).
 		Scan(&collections).Error; err != nil {
 		return nil, err
 	}
@@ -202,7 +202,7 @@ func (pu *ProductRepositoryImpl) GetDetails(db *gorm.DB, productID string) (*mod
 	}
 	ps.Attributes = attributes
 
-	additionalImages, err := pu.GetImages(db, productID)
+	additionalImages, err := pu.GetImages(db, ps.ID)
 	if err != nil {
 		return nil, err
 	}

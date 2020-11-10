@@ -3,8 +3,8 @@ package payment_gateways
 import (
 	"errors"
 	"fmt"
-	"github.com/shopicano/shopicano-backend/log"
-	"github.com/shopicano/shopicano-backend/models"
+	"git.cloudbro.net/michaelfigg/yallawebsites/log"
+	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/stripe/stripe-go"
 	"github.com/stripe/stripe-go/checkout/session"
 	"github.com/stripe/stripe-go/client"

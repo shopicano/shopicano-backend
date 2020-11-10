@@ -2,10 +2,10 @@ package app
 
 import (
 	"fmt"
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
+	"git.cloudbro.net/michaelfigg/yallawebsites/log"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
-	"github.com/shopicano/shopicano-backend/config"
-	"github.com/shopicano/shopicano-backend/log"
 )
 
 var instance *gorm.DB

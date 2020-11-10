@@ -1,9 +1,9 @@
 package queue
 
 import (
+	"git.cloudbro.net/michaelfigg/yallawebsites/machinery"
+	tasks2 "git.cloudbro.net/michaelfigg/yallawebsites/tasks"
 	"github.com/RichardKnop/machinery/v1/tasks"
-	"github.com/shopicano/shopicano-backend/machinery"
-	tasks2 "github.com/shopicano/shopicano-backend/tasks"
 )
 
 func SendSignUpVerificationEmail(userID string) error {

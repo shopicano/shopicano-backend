@@ -2,8 +2,8 @@ package services
 
 import (
 	"crypto/tls"
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
 	"github.com/go-gomail/gomail"
-	"github.com/shopicano/shopicano-backend/config"
 )
 
 func EmailDialer() *gomail.Dialer {

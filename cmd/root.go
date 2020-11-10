@@ -2,17 +2,18 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/shopicano/shopicano-backend/app"
-	"github.com/shopicano/shopicano-backend/config"
-	"github.com/shopicano/shopicano-backend/log"
-	"github.com/spf13/cobra"
 	"os"
+
+	"git.cloudbro.net/michaelfigg/yallawebsites/app"
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
+	"git.cloudbro.net/michaelfigg/yallawebsites/log"
+	"github.com/spf13/cobra"
 )
 
 var (
 	// RootCmd is the root command of nur service
 	RootCmd = &cobra.Command{
-		Use:   "shopicano",
+		Use:   "yallawebsites",
 		Short: "A http service",
 		Long:  `A HTTP JSON API backend service`,
 	}

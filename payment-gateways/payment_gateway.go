@@ -2,9 +2,9 @@ package payment_gateways
 
 import (
 	"errors"
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
+	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/braintree-go/braintree-go"
-	"github.com/shopicano/shopicano-backend/config"
-	"github.com/shopicano/shopicano-backend/models"
 )
 
 type PaymentGateway interface {

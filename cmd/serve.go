@@ -1,12 +1,12 @@
 package cmd
 
 import (
-	"github.com/shopicano/shopicano-backend/app"
-	"github.com/shopicano/shopicano-backend/config"
-	"github.com/shopicano/shopicano-backend/log"
-	"github.com/shopicano/shopicano-backend/machinery"
-	payment_gateways "github.com/shopicano/shopicano-backend/payment-gateways"
-	"github.com/shopicano/shopicano-backend/server"
+	"git.cloudbro.net/michaelfigg/yallawebsites/app"
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
+	"git.cloudbro.net/michaelfigg/yallawebsites/log"
+	"git.cloudbro.net/michaelfigg/yallawebsites/machinery"
+	payment_gateways "git.cloudbro.net/michaelfigg/yallawebsites/payment-gateways"
+	"git.cloudbro.net/michaelfigg/yallawebsites/server"
 	"github.com/spf13/cobra"
 	"os"
 )

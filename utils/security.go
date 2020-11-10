@@ -1,11 +1,11 @@
 package utils
 
 import (
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
+	"git.cloudbro.net/michaelfigg/yallawebsites/errors"
+	"git.cloudbro.net/michaelfigg/yallawebsites/models"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo/v4"
-	"github.com/shopicano/shopicano-backend/config"
-	"github.com/shopicano/shopicano-backend/errors"
-	"github.com/shopicano/shopicano-backend/models"
 	"golang.org/x/crypto/bcrypt"
 	"strings"
 	"time"

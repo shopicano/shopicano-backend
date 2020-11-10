@@ -2,8 +2,8 @@ package services
 
 import (
 	"fmt"
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
 	"github.com/go-gomail/gomail"
-	"github.com/shopicano/shopicano-backend/config"
 )
 
 func SendSignUpVerificationEmail(email, subject, body string) error {

@@ -2,9 +2,9 @@ package services
 
 import (
 	"fmt"
+	"git.cloudbro.net/michaelfigg/yallawebsites/app"
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
 	"github.com/minio/minio-go/v6"
-	"github.com/shopicano/shopicano-backend/app"
-	"github.com/shopicano/shopicano-backend/config"
 	"io"
 )
 

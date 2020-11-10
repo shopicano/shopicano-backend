@@ -2,7 +2,7 @@ package models
 
 import (
 	"fmt"
-	"github.com/shopicano/shopicano-backend/log"
+	"git.cloudbro.net/michaelfigg/yallawebsites/log"
 	"time"
 )
 

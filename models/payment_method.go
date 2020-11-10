@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/shopicano/shopicano-backend/log"
+	"git.cloudbro.net/michaelfigg/yallawebsites/log"
 	"time"
 )
 

@@ -1,15 +1,15 @@
 package api
 
 import (
+	"git.cloudbro.net/michaelfigg/yallawebsites/app"
+	"git.cloudbro.net/michaelfigg/yallawebsites/core"
+	"git.cloudbro.net/michaelfigg/yallawebsites/data"
+	"git.cloudbro.net/michaelfigg/yallawebsites/errors"
+	"git.cloudbro.net/michaelfigg/yallawebsites/middlewares"
+	"git.cloudbro.net/michaelfigg/yallawebsites/models"
+	"git.cloudbro.net/michaelfigg/yallawebsites/validators"
 	"github.com/jinzhu/gorm"
 	"github.com/labstack/echo/v4"
-	"github.com/shopicano/shopicano-backend/app"
-	"github.com/shopicano/shopicano-backend/core"
-	"github.com/shopicano/shopicano-backend/data"
-	"github.com/shopicano/shopicano-backend/errors"
-	"github.com/shopicano/shopicano-backend/middlewares"
-	"github.com/shopicano/shopicano-backend/models"
-	"github.com/shopicano/shopicano-backend/validators"
 	"net/http"
 	"strconv"
 	"strings"

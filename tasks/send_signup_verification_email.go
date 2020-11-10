@@ -2,14 +2,14 @@ package tasks
 
 import (
 	"fmt"
+	"git.cloudbro.net/michaelfigg/yallawebsites/app"
+	"git.cloudbro.net/michaelfigg/yallawebsites/config"
+	"git.cloudbro.net/michaelfigg/yallawebsites/data"
+	"git.cloudbro.net/michaelfigg/yallawebsites/log"
+	"git.cloudbro.net/michaelfigg/yallawebsites/services"
+	"git.cloudbro.net/michaelfigg/yallawebsites/templates"
+	"git.cloudbro.net/michaelfigg/yallawebsites/utils"
 	"github.com/RichardKnop/machinery/v1/tasks"
-	"github.com/shopicano/shopicano-backend/app"
-	"github.com/shopicano/shopicano-backend/config"
-	"github.com/shopicano/shopicano-backend/data"
-	"github.com/shopicano/shopicano-backend/log"
-	"github.com/shopicano/shopicano-backend/services"
-	"github.com/shopicano/shopicano-backend/templates"
-	"github.com/shopicano/shopicano-backend/utils"
 	"time"
 )
 
